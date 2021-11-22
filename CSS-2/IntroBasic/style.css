@@ -1,0 +1,8 @@
+/* p: selector
+{}: Expression
+font-family: Property
+Times New Roman: Value */
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

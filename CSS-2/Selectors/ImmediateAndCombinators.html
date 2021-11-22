@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Immediate And Combinators Selectors
+        </title>
+
+        <style>
+
+            h2 {
+                color: darkgoldenrod;
+            }
+
+            #parent h2{
+                color: darkgreen;
+            }
+
+            /* Immediate Child Selector */
+            #parent > h2 {
+                color: darkmagenta;
+            }
+
+            /* Immediate Sibling Selector */
+            #parent + h2 {
+                color: darkred;
+            }
+
+            /* Combinator Selector */
+            #parent ~ h2 {
+                color: darkslategray;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <!-- div: is used to create a section , it is also a html element -->
+        <div id="parent">
+            <h2>This is a parent heading</h2>
+            <div class="child">
+                <h2>This is a Child heading</h2>
+                <div class="grand-child">
+                    <h2>This is a Grand Child heading</h2>
+                </div>
+            </div>
+        </div>
+
+        <h2>This is a outside heading</h2>
+        <h2>This is a outside heading</h2>
+
+    </body>
+</html>
