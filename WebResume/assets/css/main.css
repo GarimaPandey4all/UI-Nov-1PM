@@ -6,26 +6,47 @@ body {
 
 h1 {
     font-size: 90px;
+    font-family: 'Sacramento', cursive;
 }
 
 h2 {
     font-size: 30px;
+    color: #9A0680;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
+
 
  h3 {
     font-size: 20px;
+    color: #4C0070;
+    font-family: 'Indie Flower', cursive;
+ }
+
+ hr {
+    width: 4%;
+    border-style: dotted;
+    border-width: 18px;
+    border-bottom: none;
+    border-color: #d3cfcf;
+    margin: 100px auto 120px;
  }
 
  a {
      text-decoration: none;
+     color: #9A0680;
  }
 
  p {
      font-size: 17px;
+     color: #79018C;
+ }
+
+ span {
+     color: #fff;
  }
 
  #top-container {
-     background-color: cadetblue;
+    background-color: #160040;
     position: relative;
  }
 
@@ -43,6 +64,7 @@ h2 {
 
  .title-text {
      padding: 100px 0;
+     color: #ffffff;
  }
 
  #middle-container {
@@ -91,19 +113,30 @@ h2 {
 }
 
 .btn {
-    background-color: cornflowerblue;
-    color: crimson;
+    background-color: #160040;
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 20px;
 }
 
 .btn:hover {
-    background-color: cyan;
-    color: black;
+    background-color: #4C0070;
+    color: #fff;
 }
 
 #bottom-container {
-    background-color: cadetblue;
+    background-color: #160040;
     padding: 40px 0 60px;
+}
+
+.footer-link {
+    margin: 0 20px;
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+.copyright {
+    padding: 20px 0;
 }
